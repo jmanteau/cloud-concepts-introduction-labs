@@ -1,10 +1,3 @@
----
-created: 2025-01-16T21:29:43 (UTC +01:00)
-tags: []
-source: https://portal.tutorialsdojo.com/courses/playcloud-sandbox-aws/lessons/creating-your-first-application-load-balancer/
-author: 
----
-
 # Guided Lab: Creating Your First Application Load Balancer 
 
 > ## Excerpt
