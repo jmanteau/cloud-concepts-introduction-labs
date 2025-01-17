@@ -342,7 +342,7 @@ ___
     1.  For `Function Name`, input `<prefix>GameTopXStats`
     2.  For `Runtime`, select the `Node.js 20.x`
     3.  For `Architecture`, select `arm64` 
-    4.  For `Permissions`, we need to give permissions to our Lambda function to get data from the DynamoDB table that we have just created. Expand the section `Change default execution role`, and select `Create a new role with basic Lambda permissions`.
+    4.  For `Permissions`, we need to give permissions to our Lambda function to get data from the DynamoDB table that we have just created. Expand the section `Change default execution role`, and select `Use a role` and use `LabRole`.
     5.  Click on the `Create function` button. You are going to get transported to the Designer page for the function.
     6.  Scroll down to the section `Code source`.
     7.  You should see a index.mjs tab with some code in it. Use the **Lambda code snippet** below, copy it, and paste it replacing what's in index.mjs:
