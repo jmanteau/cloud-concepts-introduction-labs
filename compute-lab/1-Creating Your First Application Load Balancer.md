@@ -40,11 +40,15 @@ In this lab, we’ll set up two EC2 instances to demonstrate how an ALB distribu
 
 2\. On the left window, under **Network & Security**, select **Security Groups**, then click **Create security group**. Create a security group named ‘ALB-SG’ for the Application Load Balancer. Configure it with an inbound rule allowing HTTP traffic from 0.0.0.0/0.
 
-![img](1-Creating%20Your%20First%20Application%20Load%20Balancer.assets/lab-aws_management_console_ec2_search-20250116213859352.jpg)
+![image-20250117170137843](1-Creating%20Your%20First%20Application%20Load%20Balancer.assets/image-20250117170137843.png)
 
 3\. Create another security group named ‘SERVER-SG’ for the EC2 instances. Configure it with an inbound rule allowing HTTP traffic from the Application Load Balancer’s security group (ALB-SG).
 
-![img](1-Creating%20Your%20First%20Application%20Load%20Balancer.assets/lab-aws_management_console_ec2_search-20250116213910981.jpg)
+![image-20250117170255314](1-Creating%20Your%20First%20Application%20Load%20Balancer.assets/image-20250117170255314.png)
+
+Once selected:
+
+![image-20250117170304207](1-Creating%20Your%20First%20Application%20Load%20Balancer.assets/image-20250117170304207.png)
 
 By setting up these security groups, we make sure that the application cannot be accessed directly using the EC2 instances’ public IP addresses. All incoming traffic is routed exclusively through the ALB, ensuring users interact with our application via the ALB’s endpoint only.
 
