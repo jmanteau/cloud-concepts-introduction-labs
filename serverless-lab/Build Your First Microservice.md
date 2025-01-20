@@ -740,7 +740,7 @@ Here we are going to test the API that we just defined. We are going to execute 
 3.  Now you should receive a response similar to the following one for the response body:
     
     ```
-    <span>{"isBase64Encoded":false,"statusCode":200,"body":"[{\"Nickname\":\"alanis\",\"Position\":1,\"Performance\":4.032258064516129},{\"Nickname\":\"blanka\",\"Position\":2,\"Performance\":3.3707865168539324},{\"Nickname\":\"bugsbunny\",\"Position\":3,\"Performance\":2.272727272727273},{\"Nickname\":\"billythekid\",\"Position\":4,\"Performance\":4.239130434782608},{\"Nickname\":\"nobodyknows\",\"Position\":5,\"Performance\":3.823529411764706},{\"Nickname\":\"mordorlord\",\"Position\":6,\"Performance\":5},{\"Nickname\":\"naruto\",\"Position\":7,\"Performance\":0},{\"Nickname\":\"ramon\",\"Position\":8,\"Performance\":0},{\"Nickname\":\"bruceb\",\"Position\":9,\"Performance\":0},{\"Nickname\":\"hackz\",\"Position\":10,\"Performance\":-1}]","headers":{"Content-Type":"application/json"}}</span>
+{"isBase64Encoded":false,"statusCode":200,"body":"[{\"Nickname\":\"alanis\",\"Position\":1,\"Performance\":4.032258064516129},{\"Nickname\":\"blanka\",\"Position\":2,\"Performance\":3.3707865168539324},{\"Nickname\":\"bugsbunny\",\"Position\":3,\"Performance\":2.272727272727273},{\"Nickname\":\"billythekid\",\"Position\":4,\"Performance\":4.239130434782608},{\"Nickname\":\"nobodyknows\",\"Position\":5,\"Performance\":3.823529411764706},{\"Nickname\":\"mordorlord\",\"Position\":6,\"Performance\":5},{\"Nickname\":\"naruto\",\"Position\":7,\"Performance\":0},{\"Nickname\":\"ramon\",\"Position\":8,\"Performance\":0},{\"Nickname\":\"bruceb\",\"Position\":9,\"Performance\":0},{\"Nickname\":\"hackz\",\"Position\":10,\"Performance\":-1}]","headers":{"Content-Type":"application/json"}}
     ```
     
 
@@ -793,7 +793,7 @@ Your need to deploy the API so you can have access to it, externally.
     4.  Click on the button `Deploy`. You are going to be forwarded to the Stage page of the console, where the your deployment URL is shown. It will be something similar to the following:
         
         ```
-        <span>Invoke URL: https://&lt;API-id&gt;.execute-api.&lt;region&gt;.amazonaws.com/prod</span>
+Invoke URL: https://<API-id>.execute-api.<region>.amazonaws.com/prod
         ```
     
 3.  At the left, you will see the section Stages, and prod under it. Click on `prod` to expand the section. You will see the `topxstatistics` resource, with GET and OPTIONS under it.
